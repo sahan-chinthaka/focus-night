@@ -7,15 +7,13 @@ function NavBar() {
 			<nav className="links">
 				<ul>
 					<li>
-						<a href="#" className="active">
-							HOME
-						</a>
+						<a href="#home">HOME</a>
 					</li>
 					<li>
-						<a href="#">NOTICE</a>
+						<a href="#notice">NOTICE</a>
 					</li>
 					<li>
-						<a href="#">CONTACT</a>
+						<a href="#contact">CONTACT</a>
 					</li>
 				</ul>
 			</nav>
