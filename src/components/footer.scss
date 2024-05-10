@@ -8,3 +8,14 @@
 		color: var(--primary-color);
 	}
 }
+
+
+@media all and (max-width: 700px)  {
+	.footer {
+		padding: 15px;
+		
+		p {
+			font-size: 1.4rem;
+		}
+	}
+}
