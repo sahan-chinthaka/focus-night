@@ -1,0 +1,31 @@
+.navigation-bar {
+	background: #222222;
+	display: flex;
+	align-items: center;
+	padding: 0 113px;
+	height: 85px;
+
+	.logo {
+		width: 155px;
+	}
+
+	.links {
+		margin-left: auto;
+
+		ul {
+			list-style-type: none;
+			display: flex;
+			gap: 60px;
+
+			a {
+				text-decoration: none;
+				font-size: 2.4rem;
+				color: white;
+			}
+
+			a.active {
+				color: var(--primary-color);
+			}
+		}
+	}
+}
