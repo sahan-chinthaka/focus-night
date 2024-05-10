@@ -3,7 +3,7 @@ import "./hero-section.scss";
 function HeroSection() {
 	return (
 		<div className="hero-section">
-			<img src="/background.png" alt="FOCus Night Background" className="background" />
+			<div className="background"></div>
 
 			<div className="content">
 				<span className="title">TIME REMAINNG</span>
