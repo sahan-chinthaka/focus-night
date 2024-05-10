@@ -2,8 +2,13 @@
 	--primary-color: #03fbfb;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 67.5%;
+	scroll-behavior: smooth;
 }
 
 body {

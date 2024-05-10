@@ -4,6 +4,9 @@
 	align-items: center;
 	padding: 0 113px;
 	height: 85px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
 
 	.logo {
 		width: 155px;
@@ -25,7 +28,7 @@
 				color: white;
 			}
 
-			a.active {
+			a:hover {
 				color: var(--primary-color);
 			}
 		}

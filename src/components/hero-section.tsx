@@ -31,11 +31,11 @@ function HeroSection() {
 	}, []);
 
 	return (
-		<div className="hero-section">
+		<div className="hero-section" id="home">
 			<div className="background"></div>
 
 			<div className="content">
-				<span className="title">TIME REMAINNG</span>
+				<span className="title">TIME REMAINING</span>
 				<div className="count-down">
 					<div className="block">
 						<div className="count">{day.days}</div>

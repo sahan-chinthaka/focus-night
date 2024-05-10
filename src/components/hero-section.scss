@@ -3,6 +3,7 @@
 	background: black;
 	min-height: calc(100vh - 85px);
 	overflow: hidden;
+	top: 85px;
 
 	.background {
 		position: absolute;
@@ -90,12 +91,9 @@
 	.hero-section .content .count-down .block .count {
 		width: 70px;
 		height: 70px;
-		text-align: center;
 		line-height: 70px;
-		background-color: #222;
-		border-radius: 50px;
+		border-radius: 15px;
 		font-size: 3.8rem;
-		margin-bottom: 25px;
 	}
 
 	.hero-section .content .count-down .block span {
