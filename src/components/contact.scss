@@ -19,12 +19,17 @@
 			background-color: #101010;
 			padding: 50px;
 
-			img {
+			.profile-img {
 				width: 165px;
 				height: 165px;
 				border-radius: 50%;
 				margin: auto;
 				display: block;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
 			}
 
 			p {
@@ -33,6 +38,11 @@
 
 			p.name {
 				font-size: 3.6rem;
+				margin-bottom: 5px;
+			}
+
+			p.post {
+				font-size: 2.2rem;
 			}
 
 			p.number {
