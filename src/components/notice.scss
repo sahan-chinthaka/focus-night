@@ -6,6 +6,16 @@
 		font-size: 6.4rem;
 		color: var(--primary-color);
 		text-align: center;
+		margin: 100px 0;
+	}
+
+	.item {
+		max-width: 400px;
+		margin: 20px;
+
+		img {
+			width: 100%;
+		}
 	}
 }
 
