@@ -56,3 +56,48 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 1100px) {
+	.hero-section .content .count-down {
+		gap: 20px;
+	}
+	.hero-section .content .count-down .block .count {
+		width: 150px;
+		height: 150px;
+		text-align: center;
+		line-height: 150px;
+		background-color: #222;
+		border-radius: 50px;
+		font-size: 7.8rem;
+		margin-bottom: 25px;
+	}
+
+	.hero-section .content .count-down .block span {
+		font-size: 2.2rem;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	.hero-section .content .title {
+		font-size: 3.4rem;
+	}
+
+	.hero-section .content .count-down {
+		gap: 15px;
+	}
+
+	.hero-section .content .count-down .block .count {
+		width: 70px;
+		height: 70px;
+		text-align: center;
+		line-height: 70px;
+		background-color: #222;
+		border-radius: 50px;
+		font-size: 3.8rem;
+		margin-bottom: 25px;
+	}
+
+	.hero-section .content .count-down .block span {
+		font-size: 1.5rem;
+	}
+}
