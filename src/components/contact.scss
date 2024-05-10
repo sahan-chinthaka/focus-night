@@ -1,0 +1,49 @@
+.contact {
+	background-color: #202020;
+	padding: 50px;
+
+	.title {
+		font-size: 6.4rem;
+		color: var(--primary-color);
+		text-align: center;
+		margin: 100px 0;
+	}
+
+	.profiles {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		flex-wrap: wrap;
+
+		.profile {
+			background-color: #101010;
+			padding: 50px;
+
+			img {
+				width: 165px;
+				height: 165px;
+				border-radius: 50%;
+				margin: auto;
+				display: block;
+			}
+
+			p {
+				text-align: center;
+			}
+
+			p.name {
+				font-size: 3.6rem;
+			}
+
+			p.number {
+				font-size: 2rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	.contact .title {
+		font-size: 3.4rem;
+	}
+}
