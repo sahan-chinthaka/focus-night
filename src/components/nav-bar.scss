@@ -16,6 +16,8 @@
 			list-style-type: none;
 			display: flex;
 			gap: 60px;
+			padding: 0;
+			margin: 0;
 
 			a {
 				text-decoration: none;
@@ -25,6 +27,35 @@
 
 			a.active {
 				color: var(--primary-color);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	.navigation-bar {
+		padding: 0;
+		justify-content: center;
+
+		.logo {
+			display: none;
+		}
+
+		.links {
+			margin-left: initial;
+		}
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.navigation-bar {
+		.links {
+			ul {
+				gap: 15px;
+
+				a {
+					font-size: 2rem;
+				}
 			}
 		}
 	}
