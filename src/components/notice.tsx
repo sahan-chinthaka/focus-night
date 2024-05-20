@@ -28,13 +28,16 @@ function Notice() {
 
 			<Carousel responsive={responsive}>
 				<div className="item">
-					<img src="/notices/notice1.jpeg" alt="" />
+					<video src="/videos/agenda.mp4" autoPlay={true} controls></video>
 				</div>
 				<div className="item">
-					<img src="/notices/notice1.jpeg" alt="" />
+					<img src="/notices/05.png" alt="" />
 				</div>
 				<div className="item">
-					<img src="/notices/notice1.jpeg" alt="" />
+					<img src="/notices/one-week.jpg" alt="" />
+				</div>
+				<div className="item">
+					<img src="/notices/two-week.jpg" alt="" />
 				</div>
 				<div className="item">
 					<img src="/notices/notice1.jpeg" alt="" />
