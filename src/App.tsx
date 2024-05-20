@@ -1,4 +1,5 @@
 import "./App.css";
+import Agenda from "./components/agenda";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import HeroSection from "./components/hero-section";
@@ -11,6 +12,7 @@ function App() {
 			<NavBar />
 			<HeroSection />
 			<Notice />
+			<Agenda />
 			<Contact />
 			<Footer />
 		</>

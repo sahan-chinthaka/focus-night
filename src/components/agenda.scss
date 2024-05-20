@@ -1,0 +1,26 @@
+.agenda {
+	background-color: #121212;
+	padding: 50px;
+
+	.title {
+		font-size: 6.4rem;
+		color: var(--primary-color);
+		text-align: center;
+		margin: 100px 0;
+	}
+
+	div {
+		text-align: center;
+
+		img {
+			width: 100%;
+			max-width: 500px;
+		}
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	.agenda .title {
+		font-size: 3.4rem;
+	}
+}
