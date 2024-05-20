@@ -56,6 +56,31 @@
 				}
 			}
 		}
+
+		.register {
+			margin: 100px 0;
+			
+			button {
+				padding: 25px 30px;
+				background-color: var(--primary-color);
+				color: black;
+				font-weight: 700;
+				border: none;
+				border-radius: 5px;
+				letter-spacing: 4px;
+				overflow: hidden;
+				transition: 0.2s;
+				cursor: pointer;
+				text-transform: uppercase;
+
+				&:hover {
+					background: #03e9f4;
+					color: #050801;
+					box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+					-webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.3333333333));
+				}
+			}
+		}
 	}
 }
 

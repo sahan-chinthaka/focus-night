@@ -54,6 +54,12 @@ function HeroSection() {
 						<span>SECONDS</span>
 					</div>
 				</div>
+
+				<div className="register">
+					<a href="https://docs.google.com/forms/d/10DWKibvGYYw4FjoredoqhI2ofXDJ0MWzMVFd8b6kKEw/edit?usp=drivesdk">
+						<button>Register Here</button>
+					</a>
+				</div>
 			</div>
 		</div>
 	);
