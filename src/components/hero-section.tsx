@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./hero-section.scss";
 
-const countDownDate = new Date("May 25, 2024 08:00:00").getTime();
+const countDownDate = new Date("May 25, 2024 09:00:00").getTime();
 
 function HeroSection() {
 	const [day, setDay] = useState({
